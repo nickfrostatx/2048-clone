@@ -1,0 +1,135 @@
+body {
+    background: #FAF8EF;
+}
+
+.container {
+    width: 484px;
+    margin: 0 auto;
+    font-family: Helvetica, sans-serif;
+}
+
+h1 {
+    display: inline;
+    color: #776E65;
+    font-size: 50px;
+    margin: 0;
+}
+
+p {
+    color: #776E65;
+}
+
+.wrapper {
+    display: inline-block;
+    float: right;
+    vertical-align: top;
+    padding: 10px 20px;
+    margin: 0 4px;
+    background: #BBADA0;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.wrapper h4 {
+    margin: 0;
+    color: #EEE4DA;
+    font-size: ;
+}
+
+.grid {
+    height: 468px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 50px;
+    background: #BBADA0;
+}
+
+.cell {
+    display: inline-block;
+    vertical-align: top;
+    height: 107px;
+    width: 107px;
+    margin: 5px;
+    background: #CCC0B3;
+    font-size: 48px;
+    font-style: bold;
+    line-height: 107px;
+    text-align: center;
+}
+
+.grid {
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+
+.cell {
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+.cell-2 {
+    background: #EEE4DA;
+    color: #776E65;
+}
+
+.cell-4 {
+    background: #EDE0C8;
+    color: #776E65;
+}
+
+.cell-8 {
+    background: #F2B179;
+    color: #F9F6F2;
+}
+
+.cell-16 {
+    background: #F59563;
+    color: #F9F6F2;
+}
+
+.cell-32 {
+    background: #F67C5F;
+    color: #F9F6F2;
+}
+
+.cell-64 {
+    background: #F65E3B;
+    color: #F9F6F2;
+}
+
+.cell-128 {
+    background: #EDCF72;
+    color: #F9F6F2;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
+    font-size: 45px;
+}
+
+.cell-256 {
+    background: #EDCC61;
+    color: #F9F6F2;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
+    font-size: 45px;
+}
+
+.cell-512 {
+    background: #EDC850;
+    color: #F9F6F2;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
+    font-size: 45px;
+}
+
+.cell-1024 {
+    background: #EDC53F;
+    color: #F9F6F2;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
+    font-size: 35px;
+}
+
+.cell-2048 {
+    background: #EDC22E;
+    color: #F9F6F2;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
+    font-size: 45px;
+}
